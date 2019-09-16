@@ -177,7 +177,10 @@ p
 /******************************************************************
 HEADER SYTLES
 ******************************************************************/
-header[role=banner] {overflow:hidden;}
+header[role=banner]
+{
+  overflow:hidden;
+}
 #logo
 {
   margin: 1.1em 0 9px;
