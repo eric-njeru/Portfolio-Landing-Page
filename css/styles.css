@@ -173,23 +173,25 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
 /* sub menus */
   nav[role=navigation] .menu ul li ul,
   nav[role=navigation] .menu ul li ul li ul {
-	position: absolute;
-	padding-left:10px;
-	left: -9999em;
-	top:65px;
-	z-index: 9999;
-	border:1px solid #ccc;
-	width:200px;
-	background: #fff;
+	   position: absolute;
+	   padding-left:10px;
+	   left: -9999em;
+	   top:65px;
+	   z-index: 9999;
+	   border:1px solid #ccc;
+	   width:200px;
+     background: #fff;
 /* Old browsers */
 }
   nav[role=navigation] .menu ul li ul li ul {
-	margin-left: 200px;
-	top: auto;
-	margin-top: 30px;             }
+	   margin-left: 200px;
+	   top: auto;
+	   margin-top: 30px;
+   }
   nav[role=navigation] .menu ul li ul li:hover ul,
   nav[role=navigation] .menu ul li:hover ul {
-	left: auto;             }
+	   left: auto;
+   }
   nav[role=navigation] .menu ul li ul li a {
 	   width: 160px;
 	   color:#333;
@@ -221,10 +223,10 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
   	.footer-links ul li a:hover, .nav ul li.current-menu-item a, .nav ul li.current_page_item a {}             .footer-links ul li ul.sub-menu { display: none; }
   /* you shouldn't have that many links in the footer anyway so it's set to display none ;P */
     .attribution {
-  	margin: 1em 0;
-  	float: right;
-  	color:#333;
-  	font-size: 0.9em; }
+  	   margin: 1em 0;
+  	   float: right;
+  	   color:#333;
+  	   font-size: 0.9em; }
   	.none{display:none;}
   	#inner-footer{width:940px;margin:0 auto;} /
     ******************************************************************
@@ -244,3 +246,30 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
     	cursor:pointer;
     }
       .intro-button:hover{background-position: 0px -71px;transition: all 1s ease-in-out;} /
+  ******************************************************************
+  PORTFOLIO STYLES
+  ******************************************************************/
+        .bg{background:url(../images/bg.png) repeat;margin-top:30px;padding:10px;}
+        .content-main{width:940px;
+      	margin:30px auto 30px auto;
+      	background:#fff;
+      	-moz-box-shadow:0 0 4px #999;
+      	-webkit-box-shadow:0 0 4px #999;
+      	box-shadow:0 0 4px #999;
+      	padding:10px;overflow:hidden;
+      }
+        .content-main-text{text-align:center;}
+        h3.heading { background: url("../images/dot.png")
+      	repeat-x scroll center center transparent;
+      	font-size: 18px;
+      	font-weight: normal;
+      	margin: 0 0 25px;
+      	text-align: left; }
+        h3.heading span { background: none repeat scroll 0 0 #FFFFFF;
+      	padding: 0 20px;
+      }
+        .content-main-work{
+      	border-bottom:1px solid #ccc;
+      	text-align:center;
+      }
+      .content-main-work:hover{border-bottom:1px solid #D0ECFF;}
