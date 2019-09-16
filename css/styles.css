@@ -94,7 +94,7 @@ Highlighted Text */ ::selection
   text-shadow : none;
 }
 /******************************************************************
-HEADLINES & TITLES 
+HEADLINES & TITLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 font-family:Georgia, "Times New Roman", Times, serif;
@@ -103,11 +103,12 @@ color:#333;
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
 text-decoration: none;
 }
-h1, .h1 { font-size: 2.5em;
-line-height: 1.333em;
+h1, .h1 {
+  font-size: 2.5em;
+  line-height: 1.333em;
 }
 h2, .h2 {
-font-size: 2.5em;
+  font-size: 2.5em;
 line-height: 1.4em;
 margin-bottom: 0.375em;
 }
@@ -132,3 +133,69 @@ p{
 line-height:1.4em;
 margin-bottom:5px;
 }
+/******************************************************************
+HEADER SYTLES
+******************************************************************/
+header[role=banner] {overflow:hidden;}
+#logo { margin: 1.1em 0 9px;font-family: 'KaushanScriptRegular',Helvetica Nue, Arial, Helvetica, sans-serif;font-size:40px;text-shadow:0 6px 2px #ccc;color:#333;
+}
+/******************************************************************
+NAVIGATION STYLES (Main Navigation) ******************************************************************/
+nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicRegular',Helvetica Nue, Arial, Helvetica, sans-serif;;font-size:22px;}
+  nav[role=navigation] .menu {
+  margin:5px 0 0 10px;
+  }
+  nav[role=navigation] .menu ul
+  {
+  }
+  nav[role=navigation] .menu ul
+  li {
+  display:inline;
+  float:left;
+  }
+  nav[role=navigation] .menu ul li a {
+	color: #333;
+	padding: 5px;
+	margin-right:10px;
+	text-decoration: none;
+	float:left;
+	text-shadow:0 0;
+  }
+  nav[role=navigation] .menu ul li a:hover {
+	color: #FF6000;                                      }
+  nav[role=navigation] .menu ul li:first-child a {
+  }
+  nav[role=navigation] .menu ul li:last-child a {
+  }
+  nav[role=navigation] .menu ul li.current-menu-item a,
+  nav[role=navigation] .menu ul li.current_page_item a,
+  nav[role=navigation] .menu ul li.current-page-ancestor a {}
+/* sub menus */
+  nav[role=navigation] .menu ul li ul,
+  nav[role=navigation] .menu ul li ul li ul {
+	position: absolute;
+	padding-left:10px;
+	left: -9999em;
+	top:65px;
+	z-index: 9999;
+	border:1px solid #ccc;
+	width:200px;
+	background: #fff;
+/* Old browsers */
+}
+  nav[role=navigation] .menu ul li ul li ul {
+	margin-left: 200px;
+	top: auto;
+	margin-top: 30px;             }
+  nav[role=navigation] .menu ul li ul li:hover ul,
+  nav[role=navigation] .menu ul li:hover ul {
+	left: auto;             }
+  nav[role=navigation] .menu ul li ul li a {
+	width: 160px;
+	color:#333;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+	}
+nav[role=navigation] .menu ul li ul li a {}
+nav[role=navigation] .menu ul li ul li a:hover {color:#FF6000;}
+nav[role=navigation] .menu ul li ul li:last-child a {border-bottom:0;}                 nav[role=navigation] .menu ul li ul li ul.sub-menu { }                     nav[role=navigation] .menu ul li ul li:hover ul.sub-menu { } /
