@@ -78,3 +78,18 @@ a:link {
 -webkit-tap-highlight-color: rgba(0,0,0,0);
 /* this highlights links on Iphones / iPads */
 }
+/******************************************************************
+TEXT SELECTION STYLES
+******************************************************************/ /*
+Highlighted Text */ ::selection
+{
+  background: #333;
+  color:#fff;
+  text-shadow : none;
+}
+/* Firefox */
+::-moz-selection {
+  background: #333;
+  color:#fff;
+  text-shadow : none; 
+}
