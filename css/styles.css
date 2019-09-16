@@ -227,3 +227,20 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
   	font-size: 0.9em; }
   	.none{display:none;}
   	#inner-footer{width:940px;margin:0 auto;} /
+    ******************************************************************
+    SLIDE STYLES
+    ******************************************************************/
+      .intro, .mac{margin-top:20px;}
+      .intro h2{font:34px Georgia, "Times New Roman", Times, serif;font-style:italic;margin-top:30px;}
+      .intro span{color:#FF6000;}
+      .intro p{font-size:26px;margin-left:20px;}
+      .intro-button{background:url(../images/result.png) no-repeat;
+    	float:left;
+    	height:60px;
+    	width:255px;
+    	text-indent:-9999px;
+    	border:0;
+    	margin: 15px 19px 0 80px;
+    	cursor:pointer;
+    } 
+      .intro-button:hover{background-position: 0px -71px;transition: all 1s ease-in-out;} /
