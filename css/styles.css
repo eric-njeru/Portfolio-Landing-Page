@@ -97,11 +97,12 @@ Highlighted Text */ ::selection
 HEADLINES & TITLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-font-family:Georgia, "Times New Roman", Times, serif;
-color:#333;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#333;
 }
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
-text-decoration: none;
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a
+{
+  text-decoration: none;
 }
 h1, .h1 {
   font-size: 2.5em;
@@ -109,29 +110,30 @@ h1, .h1 {
 }
 h2, .h2 {
   font-size: 2.5em;
-line-height: 1.4em;
-margin-bottom: 0.375em;
+  line-height: 1.4em;
+  margin-bottom: 0.375em;
 }
 h3, .h3 {
-font-size: 1.3em;
-margin-bottom: 0.375em;
+  font-size: 1.3em;
+  margin-bottom: 0.375em;
 }
 h4, .h4
 {
-font-size: 1.1em;
-font-weight: 700;
-margin-bottom: 0.375em;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-bottom: 0.375em;
 }
 h5, .h5
 {
-font-size: 0.846em;
-line-height: 2.09em;
-color:#999;
-font-weight:normal;
+  font-size: 0.846em;
+  line-height: 2.09em;
+  color:#999;
+  font-weight:normal;
 }
-p{
-line-height:1.4em;
-margin-bottom:5px;
+p
+{
+  line-height:1.4em;
+  margin-bottom:5px;
 }
 /******************************************************************
 HEADER SYTLES
@@ -142,18 +144,19 @@ header[role=banner] {overflow:hidden;}
 /******************************************************************
 NAVIGATION STYLES (Main Navigation) ******************************************************************/
 nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicRegular',Helvetica Nue, Arial, Helvetica, sans-serif;;font-size:22px;}
-  nav[role=navigation] .menu {
-  margin:5px 0 0 10px;
+  nav[role=navigation] .menu
+  {
+    margin:5px 0 0 10px;
   }
   nav[role=navigation] .menu ul
-  {
-  }
+  {}
   nav[role=navigation] .menu ul
   li {
     display:inline;
     float:left;
   }
-  nav[role=navigation] .menu ul li a {
+  nav[role=navigation] .menu ul li a
+  {
 	   color: #333;
 	   padding: 5px;
 	   margin-right:10px;
@@ -162,11 +165,10 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
      text-shadow:0 0;
   }
   nav[role=navigation] .menu ul li a:hover {
-	color: #FF6000;                                      }
-  nav[role=navigation] .menu ul li:first-child a {
-  }
-  nav[role=navigation] .menu ul li:last-child a {
-  }
+	color: #FF6000;
+}
+  nav[role=navigation] .menu ul li:first-child a {}
+  nav[role=navigation] .menu ul li:last-child a {}
   nav[role=navigation] .menu ul li.current-menu-item a,
   nav[role=navigation] .menu ul li.current_page_item a,
   nav[role=navigation] .menu ul li.current-page-ancestor a {}
@@ -211,14 +213,20 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
   /* footer menu */
   footer[role=contentinfo] nav { float: left; margin: 1em 0;
   }
-   .footer-links {}
-  	.footer-links ul { margin-top: 0;
+    .footer-links {}
+  	.footer-links ul {
+      margin-top: 0;
   }
-  	.footer-links ul li { list-style-type: none; float: left; font-size: 0.9em;
+  	.footer-links ul li {
+      list-style-type: none;
+      float: left;
+      font-size: 0.9em;
   }
-  	.footer-links ul li a { margin-right: 10px; text-decoration: underline;
+  	.footer-links ul li a { margin-right: 10px;
+      text-decoration: underline;
   }
-  	.footer-links ul li:last-child a { margin-right: 0;
+  	.footer-links ul li:last-child a {
+      margin-right: 0;
   }
   	.footer-links ul li a:hover, .nav ul li.current-menu-item a, .nav ul li.current_page_item a {}             .footer-links ul li ul.sub-menu { display: none; }
   /* you shouldn't have that many links in the footer anyway so it's set to display none ;P */
@@ -236,40 +244,54 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
       .intro h2{font:34px Georgia, "Times New Roman", Times, serif;font-style:italic;margin-top:30px;}
       .intro span{color:#FF6000;}
       .intro p{font-size:26px;margin-left:20px;}
-      .intro-button{background:url(../images/result.png) no-repeat;
-    	float:left;
-    	height:60px;
-      width:255px;
-    	text-indent:-9999px;
-    	border:0;
-    	margin: 15px 19px 0 80px;
-    	cursor:pointer;
+      .intro-button
+      {
+         background:url(../images/result.jpeg) no-repeat;
+    	   float:left;
+    	   height:60px;
+         width:255px;
+    	   text-indent:-9999px;
+    	   border:0;
+    	   margin: 15px 19px 0 80px;
+    	   cursor:pointer;
     }
       .intro-button:hover{background-position: 0px -71px;transition: all 1s ease-in-out;} /
   ******************************************************************
   PORTFOLIO STYLES
   ******************************************************************/
-        .bg{background:url(../images/bg.png) repeat;margin-top:30px;padding:10px;}
-        .content-main{width:940px;
-      	margin:30px auto 30px auto;
-      	background:#fff;
-      	-moz-box-shadow:0 0 4px #999;
-      	-webkit-box-shadow:0 0 4px #999;
-      	box-shadow:0 0 4px #999;
-      	padding:10px;overflow:hidden;
-      }
-        .content-main-text{text-align:center;}
-        h3.heading { background: url("../images/dot.png")
-      	repeat-x scroll center center transparent;
-      	font-size: 18px;
-      	font-weight: normal;
-      	margin: 0 0 25px;
-      	text-align: left; }
-        h3.heading span { background: none repeat scroll 0 0 #FFFFFF;
-      	padding: 0 20px;
-      }
-        .content-main-work{
-      	border-bottom:1px solid #ccc;
-      	text-align:center;
-      }
-      .content-main-work:hover{border-bottom:1px solid #D0ECFF;}
+        .bg{background:url(../images/bg.jpeg) repeat;margin-top:30px;padding:10px;}
+        .content-main
+        {
+          width:940px;
+      	  margin:30px auto 30px auto;
+      	  background:#fff;
+      	  -moz-box-shadow:0 0 4px #999;
+      	  -webkit-box-shadow:0 0 4px #999;
+      	  box-shadow:0 0 4px #999;
+      	  padding:10px;
+          overflow:hidden;
+        }
+        .content-main-text
+        {
+          text-align:center;
+        }
+        h3.heading
+        {
+          background: url("../images/dot.jpeg")
+      	  repeat-x scroll center center transparent;
+      	  font-size: 18px;
+      	  font-weight: normal;
+      	  margin: 0 0 25px;
+      	  text-align: left;
+        }
+        h3.heading span
+        {
+          background: none repeat scroll 0 0 #FFFFFF;
+      	  padding: 0 20px;
+        }
+        .content-main-work
+        {
+      	  border-bottom:1px solid #ccc;
+      	  text-align:center;
+        }
+        .content-main-work:hover{border-bottom:1px solid #D0ECFF;}
