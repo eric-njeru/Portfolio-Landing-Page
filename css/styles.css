@@ -31,7 +31,7 @@ display: inline; float: left; position: relative; margin-left: 1.0638298%; /* 10
 /******************************************************************
 COMMON & REUSABLE STYLES
 ******************************************************************/
-/* floats */ 
+/* floats */
 .left { float: left; }
 .right { float: right; }
 @font-face {
@@ -60,4 +60,21 @@ COMMON & REUSABLE STYLES
   format('svg');
   font-weight: normal;
   font-style: normal;
+}
+/******************************************************************
+LINK STYLES
+******************************************************************/
+a, a:visited {
+color: #333;
+text-shadow:0 1px #fff;
+text-decoration:none; }
+a:hover, a:focus
+{
+color: #F37D01;
+text-decoration:none;
+}
+a:active {} /* on click */
+a:link {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+/* this highlights links on Iphones / iPads */
 }
