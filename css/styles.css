@@ -150,16 +150,16 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
   }
   nav[role=navigation] .menu ul
   li {
-  display:inline;
-  float:left;
+    display:inline;
+    float:left;
   }
   nav[role=navigation] .menu ul li a {
-	color: #333;
-	padding: 5px;
-	margin-right:10px;
-	text-decoration: none;
-	float:left;
-	text-shadow:0 0;
+	   color: #333;
+	   padding: 5px;
+	   margin-right:10px;
+	   text-decoration: none;
+     float:left;
+     text-shadow:0 0;
   }
   nav[role=navigation] .menu ul li a:hover {
 	color: #FF6000;                                      }
