@@ -1,0 +1,30 @@
+/******************************************************************
+GENERAL LAYOUT STYLES
+******************************************************************/
+body { background:#FFF; color:#777;font:12px Georgia, "Times New Roman", Times, serif;line-height:1.4em; border-top:5px solid #FF6000; } /******************************************************************
+GRID STYLES ******************************************************************/
+/* 960 Grid System (http://960.gs/ ) */
+#container, .wrap {width: 940px;
+margin:0auto;
+padding:0 10px;
+overflow:hidden;}
+/* layout options (all have margins right & left of 2.1276596%)
+*/ .col60  { width: 6.3829787%; } /* width 60px/ grid_1
+*/ .col140 { width: 14.893617%; } /* width 140px/ grid_2
+*/ .col220 { width: 23.404255%; } /* width 220px/ grid_3
+*/ .col300 { width: 31.914894%; } /* width 300px / grid_4
+*/ .col380 { width: 40.425532%; } /* width 380px / grid_5
+*/ .col480 { width: 48.936170%;  } /* width 480px / grid_6
+*/ .col540 { width: 57.446809%; } /* width 540px / grid_7
+*/ .col620 { width: 65.957447%; } /* width 620px / grid_8
+*/ .col700 { width: 74.468085%; } /* width 700px / grid_9
+*/ .col780 { width: 82.978723%; } /* width 780px / grid_10
+*/ .col860 { width: 91.489362%; } /* width 860px / grid_11
+*/ .col940 { width: 100.0%;     } /* width 940px / grid_12
+*/ /* layout & column defaults */
+.col60, .col140, .col220, .col300, .col380, .col480, .col540, .col620, .col700, .col780, .col860, .col940 {
+display: inline; float: left; position: relative; margin-left: 1.0638298%; /* 10px */         margin-right: 1.0638298%;  /* 10px */
+}
+/* default styles & fixes */
+.first { margin-left: 0; } /* fixes alignment */
+.last { margin-right: 0; } /* fixes alignment */
