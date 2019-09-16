@@ -237,7 +237,7 @@ nav[role=navigation] {float:right; margin-top:30px;font-family: 'LeagueGothicReg
       .intro-button{background:url(../images/result.png) no-repeat;
     	float:left;
     	height:60px;
-    	width:255px;
+      width:255px;
     	text-indent:-9999px;
     	border:0;
     	margin: 15px 19px 0 80px;
